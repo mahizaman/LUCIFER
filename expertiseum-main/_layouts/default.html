@@ -1,0 +1,16 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ site.language }}">
+<head>
+  {% include head.html %}
+</head>
+<body class="homebg">
+{% include navbar.html %}
+
+{{content}}
+
+<script src="{{ "/assets/js/app.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+</body>
+</html>

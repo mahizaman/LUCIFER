@@ -1,0 +1,40 @@
+/*1background*/
+
+.homebg{
+  background: url(/assets/img/background/bg.jpg) no-repeat center center fixed;
+  -moz-background-size:cover;
+  -webkit-background-size:cover;
+  -o-background-size:cover;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  min-height: 105rem;
+  min-width: 20rem;
+  margin: 0%;
+  padding: 0%;
+}
+
+.hometext{
+  text-align: center;
+  padding: 1rem 0rem 1rem 0rem;
+  background: rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-top: 10%;
+  font-size: 20rem;
+
+}
+
+.title{
+  text-align: center;
+  text-shadow: 10pt 10pt 10pt rgb(190, 217, 240);
+  color: rgb(255, 255, 255);
+  text-decoration: wavy;
+  font-size: 5rem;
+}
+.title2{
+  text-align: center;
+  text-shadow: 10pt 10pt 10pt rgb(190, 217, 240);
+  color: rgb(255, 255, 255);
+  text-decoration: wavy;
+  font-size: 3rem;
+}

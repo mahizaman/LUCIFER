@@ -1,0 +1,56 @@
+# Welcome to config file!
+#
+# Site settings
+name: Expertiseum
+title: Expertiseum
+email: expertiseum01@gmail.com
+description:
+language: "en" # this is for setting up page language attribute in HTML tag
+tags:
+  - Expertiseum
+  - expertiseum
+  - add more
+
+baseurl: "/expertiseum" # the subpath of your site, e.g. /blog
+url: "https://ajpalok.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+permalink: "/:title/"
+
+markdown: kramdown
+markdown_ext: "markdown, mkdown, mkdn, mkd, md"
+highlighter: rouge
+
+# special settings numbers
+fbappid: ""
+
+# Build settings
+# plugins:
+#   - jekyll-compress-images
+#
+# compress_images:
+#   images_path: "assets/img/**/*.{gif,png,jpg,jpeg,svg}"
+
+sass:
+    style: compressed
+    
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
